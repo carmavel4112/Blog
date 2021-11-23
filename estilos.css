@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: #026481;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 30px #888787;
+    border-bottom-style:solid;
+    border-bottom-color: rgba(77, 122, 77, 0.533);
+    border-block-end-width: 5px;
+}
+#encabezado{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    border: 0px solid #000;
+}
+#logo{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    color: #fff;
+    font-size:30px ;
+    margin-top: 55px;
+}
+
+#menu{
+    width: auto;
+    height: 30px;
+    float: right;
+    border: 0px solid red;
+    margin-top: 53px;
+}
+#menu ul li{
+    list-style: none;
+    display: block;
+}
+#menu ul li .enlace{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+#menu ul li .enlace:hover{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+#menu ul li .active{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.lista{
+    text-decoration: none;
+    background: #585858;
+    color: #fff;
+    padding: 10px ;
+    display: block; 
+}
+
+#principal{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+  
+    
+}
+#publicaciones{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin-top: 10px auto;
+    float: left;
+}
+.post{
+    width: 96%;
+    height: auto;
+    overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #046685;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 18px;
+}
+.enlace-post{
+    text-decoration: none;
+}
+#publicaciones a .titulo-post{
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#publicaciones a .titulo-post:hover{
+    text-decoration: underline;
+}
+#publicaciones .img-post{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#publicaciones .datos-publicaciones{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: seagreen;
+}
+#publicaciones .leer-mas{
+    background: seagreen;
+    color: rgb(239, 248, 118);
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#publicaciones .leer-mas:hover{
+    background: rgb(239, 248, 118);
+    color: seagreen;
+    
+}
+#publicaciones .parrafo-post{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #464444;
+    padding: 5px;
+    border-radius: 5px;
+}
+#publicaciones .num-comentarios{
+    background: #0b3b39;
+    color: seashell;
+    border: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+#publicaciones .enlace-paginacion{
+    color: rgb(36, 6, 207);
+    text-decoration: none;
+}
+#publicaciones .enlace-paginacion:hover{
+    text-decoration: underline;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    border: 0px solid;
+    height: auto;
+    overflow: hidden;
+    margin-top: 5px;
+}
+#buscar, #categorias, #sitios-amigos, #ultimos-post{
+    border-radius: 10px;
+    width: 99%;
+    border: 1px solid #ccc;
+    height: auto;
+    margin-bottom: 20px;
+}
+#buscar input[type="text"]{
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #ccc inset;
+    padding: 6px 4px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+#buscar .boton{
+    border: 0px;
+    color: #fff;
+    background: #0b4c5f;
+    padding: 7px;
+    border-radius: 10px;
+}
+.encabezado-sidebar{
+    width: 100%;
+    height: 35px;
+    background: rgb(112, 112, 112);
+    text-align: center;
+    color: seashell;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+.enlace-sidebar{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 5px;
+    border-radius: 5px;
+}
+.enlace-sidebar:hover{
+    background: cadetblue;
+    color: darkblue;
+}
+form{
+    margin-top: 3px;
+}
